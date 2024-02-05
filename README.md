@@ -22,6 +22,7 @@ Link:
 
 - [Instrutores](#instrutor)
 - [Apresentação](#apresentacao)
+- [Passo a passo HTML](#passo-a-passo-html)  
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -45,3 +46,43 @@ No front-end da aplicação, teremos campos para inserção do texto, e a escolh
 Vamos além com os extras! Implementaremos um botão que copiará o texto para a área de transferência, facilitando a troca de mensagens criptografadas.
 
 Vamos embarcar nessa jornada de quatro semanas juntos. Bom projeto para todos!
+
+## <a name="passo-a-passo-html"> Passo a passo HTML </a>
+
+1. **Criar pasta do projeto:**
+   - Eu criei uma pasta para o meu projeto, escolhendo o local que mais me agrada, como na área de trabalho, na pasta de documentos ou em qualquer lugar de minha preferência.
+
+2. **Criar arquivo HTML:**
+   - Criei um arquivo com a extensão HTML para começar a trabalhar.
+
+3. **Criar a estrutura básica:**
+   - Adicionei as tags de metadados, cabeçalho e corpo (conteúdo principal) para construir a estrutura básica da minha página.
+
+4. **Nomear o título da página:**
+   - Nomeei o título da minha página, que agora aparece na aba do navegador.
+
+5. **Campo para criptografar e descriptografar:**
+   - Nessa etapa, utilizei o tag textarea para criar um campo onde posso criptografar e descriptografar o texto.
+
+6. **Criar os botões:**
+   - Adicionei dois botões principais à minha página: um para Criptografar e outro para Descriptografar.
+
+7. **Área para apresentar o texto:**
+   - Quando eu clico no botão Criptografar, o texto é apresentado. Pesquisei sobre a propriedade style.property para realizar essa ação de forma adequada.
+
+8. **Mensagem de validação:**
+   - Informei ao usuário que letras maiúsculas e caracteres especiais não serão aceitos, garantindo uma mensagem de validação clara.
+
+9. **Extra: botão copiar:**
+   - Adicionei um novo botão para a área de apresentação da mensagem, permitindo ao usuário copiar facilmente o texto.
+
+10. **Inserir rodapé:**
+    - Fiz um rodapé com meu nome e o ano de criação, utilizando uma tag específica para essa função.
+
+1. **Modo escuro:**
+    - Implementei um seletor para permitir a mudança do estilo da página para o modo escuro, proporcionando uma experiência visual diferente aos usuários.
+
+
+
+
+  

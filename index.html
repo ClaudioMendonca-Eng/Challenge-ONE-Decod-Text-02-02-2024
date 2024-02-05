@@ -3,10 +3,41 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Decodificador</title>
+    <title>Decodificador de texto</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    
+    <header class="cabecalho">
+        <a href="https://www.alura.com.br/" target="_blank" title="Alura"><img class="cabecalho__logo"
+            src="img/logoalura.png" alt="Logo Alura"></a>
+        <h1>Decodificador de Texto</h1>
+        <div class="tema_switch">
+            <input type="checkbox" name="switch" id="switch">
+            <label id="label-switch" for="switch"></label>
+            <label id="escuro-name" for="switch">Escuro</label>
+        </div>
+    </header>
+    <main>
+        <section class="principal">
+            <textarea id="principal__textarea" placeholder="Digite seu texto..."></textarea>
+            <div class="principal__aviso">
+                <img src="img/exclamacao.png" alt="Icone exclamação">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="principal__buttons">
+                <button id="btn__criptografar" type="button">Criptografar</button>
+                <button id="btn__descriptografar" type="button">Descriptografar</button>
+            </div>
+        </section>
+        <section class="resultado" id="resultado">
+            <div id="mensagem_area_de_tranferencia">
+            </div>
+        </section>
+    </main>    
+    <footer class="rodape">
+        <P>Criado orgulhosamente por Claudio Mendonça - © 2024. All rights reserved.</P>
+    </footer>
+    <script src="app.js"></script>   
 </body>
 </html>
