@@ -8,14 +8,14 @@
 
 :root {
     font-size: 16px;
-    --primary-color: #0A3871;
-    --text-primary-color: #FFFFFF;
-    --secondary-color: #F3F5FC;
-    --tertiary-color: #FFFFFF;
+    --primary-color: #17191b;
+    --text-primary-color: #ffffff;
+    --secondary-color: #152D35;
+    --tertiary-color: #345B63;
     --button-secondary-color: #D8DFE8;
     --button-primary-hover-color: #2a578b;
-    --text-resultado-color: #495057;
-    --text-secondary-color: #000000;
+    --text-resultado-color: #ffffff;
+    --text-secondary-color: #ffffff;
 }
 
 #escuro-name {
@@ -27,7 +27,7 @@
     align-items: normal;
     padding: 1.5rem 2.5rem;    
     gap: 80%;
-    background-color: var(--button-secondary-color);
+    background-color: var(--primary-color);
     height: 5.5rem;
     color: var(--text-resultado-color);
     box-shadow: 0px 2px 10px var(--primary-color);
@@ -74,7 +74,7 @@ main {
     border: none;
     outline: none;
     font-size: 2rem;
-    color: var(--primary-color);
+    color: var(--text-primary-color);
     resize: none;
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -83,7 +83,7 @@ main {
 }
 
 #principal__textarea::placeholder {
-    color: var(--primary-color);
+    color: var(--button-secondary-color);
 }
 
 .principal__aviso {

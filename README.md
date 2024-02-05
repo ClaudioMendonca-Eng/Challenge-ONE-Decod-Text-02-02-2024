@@ -22,7 +22,8 @@ Link:
 
 - [Instrutores](#instrutor)
 - [Apresentação](#apresentacao)
-- [Passo a passo HTML](#passo-a-passo-html)  
+- [Passo a passo HTML](#passo-a-passo-html)
+- [Passo a passo CSS](#passo-a-passo-css)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -81,6 +82,36 @@ Vamos embarcar nessa jornada de quatro semanas juntos. Bom projeto para todos!
 
 1. **Modo escuro:**
     - Implementei um seletor para permitir a mudança do estilo da página para o modo escuro, proporcionando uma experiência visual diferente aos usuários.
+
+## <a name="passo-a-passo-css"> Passo a passo CSS </a>
+
+1. **Dividir a página em duas partes:**
+   - Eu dividi a página em duas partes, inserindo o texto no lado esquerdo e apresentando-o no lado direito da página.
+
+2. **Estilizar a cor da página:**
+   - Estilizei a cor de fundo da página conforme indicado no figma, garantindo um visual coeso e agradável.
+
+3. **Inserir a tipografia:**
+   - Utilizei a fonte e tamanhos sugeridos através do figma para inserir a tipografia na minha página, garantindo consistência no design.
+
+4. **Posicionar os botões:**
+   - Posicionei os botões de Criptografar e Descriptografar lado a lado e abaixo do campo de inserção de texto. O botão Copiar ficou posicionado abaixo do campo de apresentação, facilitando a interação do usuário.
+
+5. **Estilizar os botões:**
+   - Realizei a estilização dos botões para proporcionar uma visualização mais harmônica e aprimorar a experiência do usuário durante a interação com a página.
+
+6. **Estilizar e animar o cursor:**
+   - Apliquei estilos e animações ao cursor para proporcionar uma visualização mais agradável e auxiliar na experiência do usuário enquanto interage com os campos de texto.
+
+7. **Inserir imagem no campo de apresentação:**
+   - Realizei o download da imagem disponibilizada através do figma e a inseri no campo de apresentação, tornando a página mais visualmente atrativa de acordo com o design proposto.
+
+8. **Estilo escuro:**
+   - Implementei um estilo escuro para a página, permitindo aos usuários alternar entre o modo claro e escuro para uma experiência visual mais versátil.
+
+
+
+
 
 
 
