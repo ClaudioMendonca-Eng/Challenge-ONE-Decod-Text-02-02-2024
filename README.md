@@ -24,6 +24,7 @@ Link:
 - [Apresentação](#apresentacao)
 - [Passo a passo HTML](#passo-a-passo-html)
 - [Passo a passo CSS](#passo-a-passo-css)
+- [Passo a passo JavaScript](#passo-a-passo-javascript)
 - [Conclusão](#conclusao)
 - [Certificado](#certificado)
 - [Licença](#licença)
@@ -108,6 +109,41 @@ Vamos embarcar nessa jornada de quatro semanas juntos. Bom projeto para todos!
 
 8. **Estilo escuro:**
    - Implementei um estilo escuro para a página, permitindo aos usuários alternar entre o modo claro e escuro para uma experiência visual mais versátil.
+
+
+## <a name="passo-a-passo-javascript"> Passo a passo JavaScript </a>
+
+1. **Criar o arquivo JavaScript:**
+   - Criei o arquivo JavaScript para começar a desenvolver a lógica do meu projeto.
+
+2. **Referenciar o arquivo JS no HTML:**
+   - Realizei a conexão entre os arquivos, referenciando o arquivo JavaScript no HTML para garantir a interação adequada.
+
+3. **Declarar variáveis:**
+   - Declarei variáveis nesta etapa, armazenando valores essenciais para a construção da lógica do meu projeto.
+
+4. **Utilizar seletores:**
+   - Realizei a comunicação entre os arquivos utilizando seletores, aproveitando o DOM (Document Object Model) para facilitar a interação entre HTML e JavaScript.
+
+5. **Função mudar estilo da página:**
+   - Pesquisei sobre a propriedade style.property para implementar a função que muda o estilo da página de acordo com o necessário.
+
+6. **Função criptografar:**
+   - Capturei os valores das variáveis e pesquisei sobre a manipulação de strings em JavaScript. Conectei a função ao elemento HTML correspondente para garantir o funcionamento adequado da criptografia.
+
+7. **Função descriptografar:**
+   - Capturei os valores das variáveis e pesquisei sobre a manipulação de strings em JavaScript. Conectei a função ao elemento HTML correspondente para assegurar o funcionamento adequado da descriptografia.
+
+8. **Validação:**
+   - Como requisito do projeto, implementei a validação para não aceitar letras maiúsculas e caracteres especiais. Pesquisei sobre a tabela UNICODE para garantir a conformidade com os requisitos.
+
+9. **Copiar valores do campo de apresentação de mensagens:**
+   - Pesquisei sobre a API clipboard para implementar a função que permite copiar os valores do campo de apresentação de mensagens, melhorando a usabilidade do projeto.
+
+
+
+
+
 
 
 

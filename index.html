@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decodificador de texto</title>
@@ -10,11 +11,11 @@
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__menu">
-        <a href="https://www.alura.com.br/" target="_blank" title="Alura"><img class="cabecalho__logo"
+        <a href="https://www.alura.com.br/" title="Alura"><img class="cabecalho__logo"
             src="img/logoalura.png" alt="Logo Alura"></a>
         <h1>Decodificador de Texto</h1>
         </nav>  
-        <div class="cabecalho__bn">
+        <div class="cabecalho__btn">
         <img src="img/lua.png" alt="Lua ou sol troca o estilo da pagina" id="trocarEstilo" onclick="trocarEstilo()" style="cursor: pointer;">
         </div>
     </header>
@@ -30,21 +31,22 @@
                 <button id="btn__descriptografar" type="button">Descriptografar</button>
             </div>
         </section>
-        <section class="resultado" id="resultado01">
-            <div id="resultado__mensagem__vazio">
-                <img src="img/resultado.png" alt="Personagem com lupa procurando a mensagem!" id="personagem">
+        <section class="mensagem" id="mensagem">
+            <div class="mensagem__vazio" id="mensagem__vazio">
+                <img src="img/resultado.png" alt="Personagem com lupa procurando a mensagem!">
                 <h2>Nenhuma mensagem encontrada</h2>
                 <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
             </div>
-            <div class="resultado" id="mensagem_area_de_tranferencia">                
-            <textarea id="resultado__mensagem" placeholder="Resultado"></textarea>
-            <button id="btn__copiar" type="button">Copiar</button>
-            </div>
+        </section>
+        <section class="resultado" id="resultado">
+            <textarea  id="resultado__textarea" placeholder="textoCriptografado"></textarea>
+            <a class="resultado__btn" id="mensagem_area_de_tranferencia"></a>
+            <button id="btn__copiar" type="button" onclick="copiarParaAreaDeTranferencia()">Copiar</button>
         </section>
     </main> 
 
     <footer class="rodape">
-        <P>Criado orgulhosamente por <a href="https://www.claudiomendonca.eng.br" target="_blank">Claudio Mendonça</a> - © 2024. All rights reserved.</P>
+        <P>Criado orgulhosamente por <a href="https://www.claudiomendonca.eng.br">Claudio Mendonça</a> - © 2024. All rights reserved.</P>
     </footer>
     <script src="app.js"></script>   
 </body>

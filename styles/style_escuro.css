@@ -41,7 +41,7 @@
     height: 3rem;
 }
 
-.cabecalho__bn {
+.cabecalho__btn {
     display: flex;
     align-items: normal;
     justify-content:right;
