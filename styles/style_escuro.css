@@ -18,15 +18,10 @@
     --text-secondary-color: #ffffff;
 }
 
-#escuro-name {
-    cursor: pointer;
-}
-
 .cabecalho {
     display: flex;
-    align-items: normal;
-    padding: 1.5rem 2.5rem;    
-    gap: 80%;
+    align-items:center;
+    padding: 1.5rem 2.5rem;
     background-color: var(--primary-color);
     height: 5.5rem;
     color: var(--text-resultado-color);
@@ -37,15 +32,20 @@
 .cabecalho__menu{
     display: flex;
     align-items: normal;
-    justify-content:left;
+    gap: 5rem;
     height: 3rem;
 }
 
-.cabecalho__btn {
-    display: flex;
-    align-items: normal;
-    justify-content:right;
+#cabecalho__menu__logo>img {
+    width: 100%;
+    height: 100%;
 }
+
+#cabecalho__menu__btn>img {
+    width: 100%;
+    height: 100%;
+}
+
 
 body {
     background-color: var(--secondary-color);
@@ -83,7 +83,7 @@ main {
 }
 
 #principal__textarea::placeholder {
-    color: var(--button-secondary-color);
+    color: var(--text-primary-color);
 }
 
 .principal__aviso {
@@ -123,7 +123,7 @@ main {
 }
 
 #btn__criptografar:hover {
-    box-shadow: inset 0.62rem 0.62rem 1.25rem var(--button-primary-hover-color), 0.06rem 0.06rem 0.31rem var(--primary-color);
+    box-shadow: inset 0.62rem 0.62rem 1.25rem var(--button-secondary-color), 0.06rem 0.06rem 0.31rem var(--button-secondary-color);
 }
 
 #btn__criptografar:active {
@@ -147,7 +147,7 @@ main {
 
 #btn__descriptografar:hover,
 #btn__copiar:hover {
-    box-shadow: inset 0.62rem 0.62rem 1.25rem var(--secondary-color), 0.06rem 0.06rem 0.31rem var(--primary-color);
+    box-shadow: inset 0.62rem 0.62rem 1.25rem var(--button-secondary-color), 0.06rem 0.06rem 0.31rem var(--button-secondary-color);
 }
 
 #btn__descriptografar:active,
@@ -155,7 +155,7 @@ main {
     box-shadow: none
 }
 
-.resultado {
+.mensagem {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -169,7 +169,7 @@ main {
     border-radius: 2rem;
 }
 
-#resultado__mensagem__vazio {
+.mensagem__vazio {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -179,9 +179,24 @@ main {
     color: var(--text-secondary-color);
 }
 
-#resultado__mensagem__vazio>img {
+#mensagem__vazio>img {
     width: 100%;
 }
+
+.resultado {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--tertiary-color);
+    height: 85vh;
+    width: 30%;
+    border-radius: 2rem;
+}
+
 
 #resultado__textarea {
     height: 100vh;
@@ -200,6 +215,7 @@ main {
 #mensagem_area_de_tranferencia {
     opacity: 0;
     position: absolute;
+    height: 5%;
     width: 23%;
     bottom: 17vh;
     background-color: var(--primary-color);
@@ -224,6 +240,7 @@ footer {
 
 footer>p>a {
     color: var(--text-primary-color);
+    text-decoration: none;
 }
 
 @media screen and (max-width: 800px) {
@@ -243,9 +260,14 @@ footer>p>a {
         padding: 0rem;
     }
 
+    .mensagem {
+        width: 100%;
+        height:fit-content;
+    }
+
     .resultado {
         width: 100%;
-        height: fit-content
+        height: fit-content;
     }
 
     #principal__textarea {
@@ -257,7 +279,7 @@ footer>p>a {
         height: 40vh;
     }
 
-    #resultado__mensagem__vazio>img {
+    #mensagem__vazio>img {
         display: none;
     }
 
