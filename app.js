@@ -2,14 +2,14 @@
 const stylesheet = document.getElementById('stylesheet');
 const imagemBn = document.getElementById('trocarEstilo');
 const imagemPesonagem = document.getElementById('personagem');
-
 const principalTextarea = document.getElementById("principal__textarea");
 const btnCriptografar = document.getElementById("btn__criptografar");
 const btnDescriptografar = document.getElementById("btn__descriptografar");
-
 const resultadoText = document.getElementById("resultado__textarea");
 const mensagem = document.getElementById("mensagem");
 const resultado = document.getElementById("resultado");
+
+const erroMenssagem = document.getElementById("principal__buttons__erro");
 
 function trocarEstilo() { 
     if (imagemBn.src.includes('img/lua.png')) {
@@ -25,47 +25,47 @@ function trocarEstilo() {
     }
 }
 
-btnCriptografar.addEventListener("click", () => {
+function mostrarMensagemVazio() {
+    resultado.style.display = "none";
+    mensagem.style.display = "flex";    
+}
+
+function showMessage(message) {
+    resultado.style.display = "none";
+    mensagem.style.display = "flex";
+    erroMenssagem.innerText = message;
+    erroMenssagem.style.opacity = 1;
+    setTimeout(() => { erroMenssagem.style.opacity = 0 }, 2000);
+}
+
+function processText(processingFunction, successMessage) {
     const texto = principalTextarea.value;
-    if (texto === "") {
-        mostrarMensagemVazio();
-        
+    if (/[A-Z-À-Ú-à-ù]/.test(texto)) {
+        showMessage("Apenas letras minúsculas e sem acento.");
+    } else if (/[0-9]/.test(texto)) {
+        showMessage("Infelizmente números não são permitidos.");
+    } else if (/[!@#$%¨&*?]/.test(texto)) {
+        showMessage("Caracteres especiais não são permitidos.");
+    } else if (texto === '') {
+        showMessage("Digite uma mensagem para criptografar.");
     } else {
-        mostrarMensagemCriptografado();
+        const processedText = processingFunction(texto);
+        resultado.style.display = "flex";
+        mensagem.style.display = "none";
+        resultadoText.value = processedText;
     }
+
+    principalTextarea.value = "";
+}
+
+btnCriptografar.addEventListener("click", () => {
+    processText(criptografarTexto, "Texto criptografado com sucesso!");
 });
 
 btnDescriptografar.addEventListener("click", () => {
-    const texto = principalTextarea.value;
-    if (texto === "") {
-        mostrarMensagemVazio();
-    } else {
-        mostrarMensagemDescriptografado();
-    }
+    processText(descriptografar, "Texto descriptografado com sucesso!");
 });
 
-function mostrarMensagemVazio() {
-    resultado.style.display = "none";
-    mensagem.style.display = "flex";
-}
-
-function mostrarMensagemCriptografado() {
-    const texto = principalTextarea.value;
-    const textoCriptografado = criptografarTexto(texto);    
-    resultado.style.display = "flex";
-    mensagem.style.display = "none";    
-    resultadoText.value = textoCriptografado;    
-    principalTextarea.value = "";
-}
-
-function mostrarMensagemDescriptografado() {
-    const texto = principalTextarea.value;
-    const textoDescriptografado = descriptografar(texto);
-    resultado.style.display = "flex";
-    mensagem.style.display = "none";
-    resultadoText.value = textoDescriptografado;
-    principalTextarea.value = "";
-}
 
 function criptografarTexto(texto) {
     const textoCriptografado = texto
@@ -86,6 +86,7 @@ function descriptografar(texto) {
         .replace(/ufat/g, "u");
     return textoDescriptografado;
 }
+
 
 function copiarParaAreaDeTranferencia() {
     const texto = document.getElementById("resultado__textarea").value;

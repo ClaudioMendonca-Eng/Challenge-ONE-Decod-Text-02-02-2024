@@ -130,6 +130,22 @@ main {
     box-shadow: none
 }
 
+#principal__buttons__erro {
+    opacity: 0;
+    position: absolute;
+    height: 5%;
+    width: 23%;
+    bottom: 17vh;
+    background-color: var(--primary-color);
+    box-shadow: 0rem -0.12rem 0.62rem var(--primary-color);
+    color: var(--text-primary-color);
+    border-radius: 1.25rem;
+    padding: 1rem;
+    transition: opacity 0.3s ease 0s;
+    z-index: 9999;
+    font-size: 0.75rem;
+}
+
 #btn__descriptografar,
 #btn__copiar {
     width: 100%;
