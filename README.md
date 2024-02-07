@@ -8,7 +8,7 @@ Neste emocionante percurso educacional, darei meus primeiros no Challenge ONE | 
 
 #oraclenexteducation #alura #HelloONET6 #aluracursos #aluraonline #aluraone #aluraoneoracle #aluraoneoracleeducation #aluraoneoracleeducationt6 #aluraoneoracleeducationt6claudiomendon
 
-Link: 
+Link: https://claudiomendonca-eng.github.io/Challenge-ONE-Decod-Text-02-02-2024/
 
 ![](img/imagemapresentacao.gif)
 
