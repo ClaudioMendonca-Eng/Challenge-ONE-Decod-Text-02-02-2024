@@ -6,11 +6,13 @@ Atualmente, tenho o prazer de estar envolvido no programa ONE Oracle Next Educat
 
 Neste emocionante percurso educacional, darei meus primeiros no Challenge ONE | Lógica de Programação - Decodificador de Texto. É uma forma de implementar o Challenge Based Learning ou aprendizagem baseada em desafios, mecanismo por meio do qual você vai se engajar na ideia de precisar lidar com um problema proposto.
 
-#oraclenexteducation #alura #HelloONET6 #aluracursos #aluraonline #aluraone #aluraoneoracle #aluraoneoracleeducation #aluraoneoracleeducationt6 #aluraoneoracleeducationt6claudiomendon
+#challengeonedecodificador5 #oraclenexteducation #alura #HelloONET6 #aluracursos #aluraonline #aluraone #aluraoneoracle #aluraoneoracleeducation #aluraoneoracleeducationt6 #aluraoneoracleeducationt6claudiomendon
 
 Link: https://claudiomendonca-eng.github.io/Challenge-ONE-Decod-Text-02-02-2024/
 
 ![](img/imagemapresentacao.gif)
+
+[PDF do Projeto](arquivos/Challenge_-_Decodificador_vfinal_4.pdf)
 
 ## Tecnologias
 <div>
@@ -27,6 +29,7 @@ Link: https://claudiomendonca-eng.github.io/Challenge-ONE-Decod-Text-02-02-2024/
 - [Passo a passo CSS](#passo-a-passo-css)
 - [Passo a passo JavaScript](#passo-a-passo-javascript)
 - [Conclusão](#conclusao)
+- [Badge](#badge)
 - [Licença](#licença)
 
 ## <a name="instrutor"> Instrutores </a>
@@ -147,6 +150,12 @@ Vamos embarcar nessa jornada de quatro semanas juntos. Bom projeto para todos!
 ## <a name="conclusao"> Conclusão </a>
 
 Foi uma experiência incrível desenvolver o Decodificador de Texto. Aprendi muito sobre HTML, CSS e JavaScript, e estou muito satisfeito com o resultado final. Agradeço a todos os instrutores e colegas que me ajudaram ao longo do caminho. Estou ansioso para continuar aprendendo e aprimorando minhas habilidades no mundo da tecnologia.
+
+## <a name="badge"> Badge </a>
+
+Para reconhecer minha conquista e minha evolução no universo da programação, eu recebo esta badge. Eu posso compartilhar em minhas redes sociais, no LinkedIn, enfim, mostrar o melhor do meu trabalho até aqui!
+
+![](img/cms_files_10224_1671211139Prancheta_3 .png)
 
 
 ## <a name="licença"> Licença </a>

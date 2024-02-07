@@ -44,7 +44,7 @@ function processText(processingFunction, successMessage) {
         showMessage("Apenas letras minúsculas e sem acento.");
     } else if (/[0-9]/.test(texto)) {
         showMessage("Infelizmente números não são permitidos.");
-    } else if (/[!@#$%¨&*?]/.test(texto)) {
+    } else if (/[@#$%¨&*]/.test(texto)) {
         showMessage("Caracteres especiais não são permitidos.");
     } else if (texto === '') {
         showMessage("Digite uma mensagem para criptografar.");
