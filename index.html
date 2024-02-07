@@ -10,9 +10,10 @@
 </head>
 <body>
     <header class="cabecalho">
-        <nav class="cabecalho__menu">
         <a href="https://www.alura.com.br/" title="Alura"><img class="cabecalho__logo"
             src="img/logoalura.png" alt="Logo Alura" id="cabecalho__menu__logo"></a>
+        <nav class="cabecalho__menu">
+        
         <h1>DECODIFICADOR DE TEXTO</h1>
         <div class="cabecalho__menu__btn" id="cabecalho__menu__btn">
             <img src="img/lua.png" alt="Lua ou sol troca o estilo da pagina" id="trocarEstilo" onclick="trocarEstilo()" style="cursor: pointer;">
@@ -23,13 +24,13 @@
     <main>
         <section class="principal">
             <textarea id="principal__textarea" placeholder="Digite seu texto..."></textarea>
+            <a class="principal__buttons__erro" id="principal__buttons__erro"></a>
             <div class="principal__aviso">
                 <img src="img/exclamacao.png" alt="Icone exclamação">
                 <p>Apenas letras minúsculas e sem acento.</p> 
             </div>
             <div class="principal__buttons">
-                <button id="btn__criptografar" type="button">Criptografar
-                    <a class="principal__buttons__erro" id="principal__buttons__erro"></a></button>
+                <button id="btn__criptografar" type="button">Criptografar</button>
                 <button id="btn__descriptografar" type="button">Descriptografar</button>
                                
             </div>

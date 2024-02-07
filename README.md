@@ -110,6 +110,9 @@ Vamos embarcar nessa jornada de quatro semanas juntos. Bom projeto para todos!
 8. **Estilo escuro:**
    - Implementei um estilo escuro para a página, permitindo aos usuários alternar entre o modo claro e escuro para uma experiência visual mais versátil.
 
+9. **Otimização para dispositivos móveis:**
+   - Implementei a regra "@media screen and (max-width: 800px)" para aprimorar a visualização em dispositivos móveis, garantindo uma experiência responsiva aos usuários.
+
 
 ## <a name="passo-a-passo-javascript"> Passo a passo JavaScript </a>
 

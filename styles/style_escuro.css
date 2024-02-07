@@ -9,13 +9,14 @@
 :root {
     font-size: 16px;
     --primary-color: #17191b;
-    --text-primary-color: #ffffff;
     --secondary-color: #152D35;
     --tertiary-color: #345B63;
-    --button-secondary-color: #D8DFE8;
     --button-primary-hover-color: #2a578b;
-    --text-resultado-color: #ffffff;
+    --button-secondary-color: #D8DFE8;
+    --text-primary-color: #ffffff;
     --text-secondary-color: #ffffff;
+    --text-resultado-color: #ffffff;
+    --alert-color: #a13232;
 }
 
 .cabecalho {
@@ -29,16 +30,15 @@
     
 }
 
+.cabecalho>img {
+    width: 50%;
+}
+
 .cabecalho__menu{
     display: flex;
     align-items: normal;
     gap: 5rem;
     height: 3rem;
-}
-
-#cabecalho__menu__logo>img {
-    width: 100%;
-    height: 100%;
 }
 
 #cabecalho__menu__btn>img {
@@ -74,7 +74,7 @@ main {
     border: none;
     outline: none;
     font-size: 2rem;
-    color: var(--text-primary-color);
+    color: var(--text-resultado-color);
     resize: none;
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -123,7 +123,7 @@ main {
 }
 
 #btn__criptografar:hover {
-    box-shadow: inset 0.62rem 0.62rem 1.25rem var(--button-secondary-color), 0.06rem 0.06rem 0.31rem var(--button-secondary-color);
+    box-shadow: inset 0.62rem 0.62rem 1.25rem var(--button-primary-hover-color), 0.06rem 0.06rem 0.31rem var(--primary-color);
 }
 
 #btn__criptografar:active {
@@ -132,18 +132,20 @@ main {
 
 #principal__buttons__erro {
     opacity: 0;
-    position: absolute;
+    position:absolute;
     height: 5%;
     width: 23%;
     bottom: 17vh;
-    background-color: var(--primary-color);
+    background-color: var(--alert-color);
     box-shadow: 0rem -0.12rem 0.62rem var(--primary-color);
     color: var(--text-primary-color);
     border-radius: 1.25rem;
     padding: 1rem;
     transition: opacity 0.3s ease 0s;
     z-index: 9999;
-    font-size: 0.75rem;
+    font-size: 1rem;
+    text-align: center;
+    
 }
 
 #btn__descriptografar,
@@ -163,7 +165,7 @@ main {
 
 #btn__descriptografar:hover,
 #btn__copiar:hover {
-    box-shadow: inset 0.62rem 0.62rem 1.25rem var(--button-secondary-color), 0.06rem 0.06rem 0.31rem var(--button-secondary-color);
+    box-shadow: inset 0.62rem 0.62rem 1.25rem var(--secondary-color), 0.06rem 0.06rem 0.31rem var(--primary-color);
 }
 
 #btn__descriptografar:active,
@@ -266,6 +268,11 @@ footer>p>a {
         font-size: 0.78rem;
         padding: 1.5rem 0.5rem;
     }
+    
+    #cabecalho__menu__btn>img {
+        width: 100%;
+        height: 80%;
+    }
 
     main {
         flex-direction: column;
@@ -274,6 +281,14 @@ footer>p>a {
     .principal {
         width: 100%;
         padding: 0rem;
+    }
+
+    #principal__buttons__erro {
+        width: 65%;
+        position: fixed;
+        top: 45%;     /* distância do topo */
+        left: 20%;
+        
     }
 
     .mensagem {
