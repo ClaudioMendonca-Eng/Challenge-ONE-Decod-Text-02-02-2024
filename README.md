@@ -1,5 +1,6 @@
 # Alura - ONE Oracle Next Education T6
-# Challenge ONE: Lógica de Programação - Decodificador de Texto
+# Challenge ONE: Lógica de Programação
+## Decodificador de Texto
 
 Atualmente, tenho o prazer de estar envolvido no programa ONE Oracle Next Education T6, uma iniciativa inovadora resultante da parceria entre a Oracle e a Alura. Estou entusiasmado em compartilhar que estou imerso nessa experiência educacional enriquecedora e dedicada a aprimorar minhas habilidades no mundo da tecnologia.
 
@@ -26,7 +27,6 @@ Link:
 - [Passo a passo CSS](#passo-a-passo-css)
 - [Passo a passo JavaScript](#passo-a-passo-javascript)
 - [Conclusão](#conclusao)
-- [Certificado](#certificado)
 - [Licença](#licença)
 
 ## <a name="instrutor"> Instrutores </a>
@@ -142,6 +142,18 @@ Vamos embarcar nessa jornada de quatro semanas juntos. Bom projeto para todos!
 
 9. **Copiar valores do campo de apresentação de mensagens:**
    - Pesquisei sobre a API clipboard para implementar a função que permite copiar os valores do campo de apresentação de mensagens, melhorando a usabilidade do projeto.
+
+
+## <a name="conclusao"> Conclusão </a>
+
+Foi uma experiência incrível desenvolver o Decodificador de Texto. Aprendi muito sobre HTML, CSS e JavaScript, e estou muito satisfeito com o resultado final. Agradeço a todos os instrutores e colegas que me ajudaram ao longo do caminho. Estou ansioso para continuar aprendendo e aprimorando minhas habilidades no mundo da tecnologia.
+
+
+## <a name="licença"> Licença </a>
+
+<a href="https://www.buymeacoffee.com/claudiomendonca" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+Copyright © 2022 <a href="https://www.claudiomendonca.eng.br" target="_blank">ClaudioMendonca.eng.br</a> . The [MIT License](https://github.com/ClaudioMendonca-Eng/Alura-Oracle-logicadeprog-JavaScript/tree/main?tab=MIT-1-ov-file) (MIT)
 
 
 
