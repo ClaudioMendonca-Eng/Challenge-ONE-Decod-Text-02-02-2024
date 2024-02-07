@@ -11,8 +11,8 @@
     --primary-color: #0A3871;
     --secondary-color: #F3F5FC;
     --tertiary-color: #FFFFFF;
-    --button-secondary-color: #D8DFE8;
     --button-primary-hover-color: #2a578b;
+    --button-secondary-color: #D8DFE8;
     --text-primary-color: #FFFFFF;
     --text-secondary-color: #000000;
     --text-resultado-color: #495057;
@@ -21,7 +21,7 @@
 
 .cabecalho {
     display: flex;
-    align-items:center;
+    align-items: center;
     padding: 1.5rem 2.5rem;
     background-color: var(--button-secondary-color);
     height: 5.5rem;
@@ -38,7 +38,7 @@
 
 .cabecalho__menu{
     display: flex;
-    align-items:center;
+    align-items: center;
     gap: 5rem;
     height: 3rem;
 }
