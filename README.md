@@ -155,14 +155,14 @@ Foi uma experiência incrível desenvolver o Decodificador de Texto. Aprendi mui
 
 Para reconhecer minha conquista e minha evolução no universo da programação, eu recebo esta badge. Eu posso compartilhar em minhas redes sociais, no LinkedIn, enfim, mostrar o melhor do meu trabalho até aqui!
 
-![](img/cms_files_10224_1671211139Prancheta_3 .png)
+![](img/badge.png)
 
 
 ## <a name="licença"> Licença </a>
 
 <a href="https://www.buymeacoffee.com/claudiomendonca" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-Copyright © 2022 <a href="https://www.claudiomendonca.eng.br" target="_blank">ClaudioMendonca.eng.br</a> . The [MIT License](https://github.com/ClaudioMendonca-Eng/Alura-Oracle-logicadeprog-JavaScript/tree/main?tab=MIT-1-ov-file) (MIT)
+Copyright © 2024 <a href="https://www.claudiomendonca.eng.br" target="_blank">ClaudioMendonca.eng.br</a> . The [MIT License](https://github.com/ClaudioMendonca-Eng/Alura-Oracle-logicadeprog-JavaScript/tree/main?tab=MIT-1-ov-file) (MIT)
 
 
 
